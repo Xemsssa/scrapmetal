@@ -1,0 +1,156 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text_color {
+    color: #f76b40; 
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.background_color {
+    background-color: #f76b40;
+}
+
+.button_theme {
+    color: #fff;
+}
+
+.margin_bottom_small {
+    margin-bottom: 20px !important;
+}
+
+.header_text {
+    text-align: center;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.headerNav {
+    display: flex;
+}
+
+
+.headerContacts {
+    text-align: right;
+}
+
+.headerContacts_link:hover {
+    color: #f76b40;
+    text-decoration: none;
+}
+
+.headerContacts_text:hover {
+    /* text-decoration: dashed; */
+    text-decoration: dotted;
+}
+
+@media (min-width: 455px) {
+    .header {
+        flex-direction: row;
+    }
+}
+
+/* banner */
+.banner {
+    color: #fff;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.requestForm {
+    background-color: #f76b40;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.requestForm_input {
+    color: #000;
+    width: 100%;
+    border-radius: 0;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group input::placeholder {
+    color: #000;
+    /* font-weight: bold; */
+}
+
+.requestForm_button {
+    color: #fff;
+}
+
+@media(min-width: 990px) {
+    .form {
+        flex-direction: row;
+    }
+}
+
+
+/* our_services */
+.ourService {
+    height: 200px;
+    color: #fff !important;
+    /* background-size: cover; */
+}
+
+.ourService a {
+    color: #fff !important;
+    text-decoration: none;
+
+}
+
+.ourService a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+.ourService_link {
+    padding: 8px 40px;
+}
+
+.ourService_text {
+
+}
+
+.ourService_image {
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding: 20px; */
+}
