@@ -68,10 +68,7 @@ html, body {
     }
 }
 
-
-
 /* banner */
-
 .banner {
     color: #fff;
     background-image: url("../images/banner.png");
@@ -116,5 +113,45 @@ html, body {
     .form {
         flex-direction: row;
     }
+}
+
+
+/* our_services */
+.ourService {
+    height: 200px;
+    color: #fff !important;
+    /* background-size: cover; */
+}
+
+.ourService a {
+    color: #fff !important;
+    text-decoration: none;
+
+}
+
+.ourService a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+.ourService_link {
+    padding: 8px 40px;
+}
+
+.ourService_text {
+
+}
+
+.ourService_image {
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding: 20px; */
 }
 
