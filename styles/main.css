@@ -155,3 +155,48 @@ html, body {
     /* padding: 20px; */
 }
 
+
+
+/* our clients */
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-item {
+    /* display: inline-block; */
+    /* float: left; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.owl-stage-outer {
+    overflow:hidden;
+}
+
+.owl-carousel {
+    padding:  0 50px;
+    text-align: center;
+    position: relative;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -80px;
+}
+
+.owl-prev, .owl-next {
+    /* width: 20px; */
+    /* height: 20px; */
+    /* left: 20px */
+    /* border-radius: 100%; */
+}
+
+.owl-stage-outer .active {
+    border: 1px solid #f76b40;
+}
