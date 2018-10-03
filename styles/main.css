@@ -30,9 +30,19 @@ html, body {
     margin-bottom: 20px !important;
 }
 
-.padding_bottom_small {
-    padding: 40px 0;
+.margin_bottom_big{
+    margin-bottom: 70px !important;
 }
+
+.padding_bottom_small {
+    padding: 20px 0;
+}
+
+
+.padding_bottom_big {
+    padding: 50px 0;
+}
+
 
 .header_text {
     text-align: center;
@@ -77,10 +87,6 @@ html, body {
     padding-top: -2px;
     margin-bottom: -2px;
     
-}
-
-
-.nav-item:hover {
 }
 
 .headerContacts {
@@ -145,11 +151,12 @@ html, body {
     color: #000;
     width: 100%;
     border-radius: 0;
+    border: none;
 }
 
 .form-group {
     width: 100%;
-    margin-right: 20px;;
+    margin-right: 20px;
 }
 
 .form-group:last-child {
@@ -171,6 +178,30 @@ html, body {
         width: 75%;
         
         /* width: 50%; */
+        padding:10px 20px;
+    }
+
+    .requestForm_text {
+        margin-bottom: 20px;
+    }
+
+    .bannerHeader h1 {
+        font-size: 28px;
+    }
+
+        
+    .bannerHeader {
+        padding: 110px 0 150px 0; 
+    }
+    
+    .requestForm_input {
+        padding: 25px 20px;
+        font-size: 16px;
+    }
+
+    .requestForm_button {
+        padding: 12px 20px;
+        border: 2px solid #ececec;
     }
 }
 
@@ -230,13 +261,22 @@ html, body {
     align-items: center;
     /* padding: 20px; */
 }
-/* 
+
 @media(min-width: 455px) {
     .ourService {
-        width: 45%;
+        height: 320px;        
     }
-} */
 
+    .ourService_text {
+        font-size: 2.8rem;
+        margin-bottom: 40px !important;
+    }
+
+    .ourService_link {
+        font-size: 1.8rem;
+        padding: 13px 60px;
+    }
+}
 
 /* our clients */
 
@@ -293,8 +333,8 @@ html, body {
 }
 
 .owl-nav button {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     position: relative;
     border: 2px solid #ececec;
@@ -346,6 +386,11 @@ html, body {
 .footerNav_link, .footerNav_link:hover, .footerContacts_link:hover{
     color: #fff;
     text-decoration: none;
+    background-color: transparent;
+}
+
+.footerNav_link:hover {
+    background-color: transparent !important;
 }
 
 .footerContacts, .footerLocation {
@@ -356,13 +401,18 @@ html, body {
     font-size: 2.3rem;
 }
 
-.headerPhone_number:before {
+.footerPhone_number:before {
     content: url('../images/whiteCall_icon.png');
     margin-right: 5px;
 }
 
 .footerContacts_link {
     color:#fff;
+}
+
+
+.footerContacts_text {
+    /* color: #f76b40; */
 }
 
 .footerContacts_text:hover {
@@ -376,17 +426,30 @@ html, body {
 }
 
 @media (min-width: 455px) {
-    .footerNav {
-        display: flex;
-        /* flex-direction: row; */
-        justify-content: space-around;
-    }
-
+    
     .footerContacts {
         display: flex;
         justify-content: center;
     }
 
+    .owl-nav {
+        display: none;
+    }
+
+    .footerContacts_link {
+        display: flex;
+    }
+    .footerPhone_number {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 520px) {
+    .footerNav {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) {

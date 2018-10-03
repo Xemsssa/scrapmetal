@@ -8,6 +8,7 @@ $(document).ready(function () {
         loop: true,
         // margin: 10,
         dots: false,
+        nav: false,
         responsiveClass: true,
         // singleItem:true,
         responsive: {
@@ -16,12 +17,14 @@ $(document).ready(function () {
                 nav: true,
             },
             700: {
-                items: 2,
+                items: 4,
                 nav: true
             },
             1000: {
                 items: 4,
-                nav: true,
+                // nav: false,
+                // nav: false,
+                // dots: false,
                 // loop: false
             }
          
