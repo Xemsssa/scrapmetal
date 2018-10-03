@@ -166,6 +166,7 @@ html, body {
 .owl-item {
     /* display: inline-block; */
     /* float: left; */
+    /* height: 150px; */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -173,12 +174,26 @@ html, body {
     
 }
 
+.owl-item div {
+    border: 2px solid #ececec;
+    width: 150px;
+    padding: 0 20px;
+    box-sizing: content-box;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .owl-stage-outer {
     overflow:hidden;
+    /* margin: 0 50px; */
 }
 
 .owl-carousel {
-    padding:  0 50px;
+    /* padding:  0 50px; */
+    /* padding:  0 120px; */
     text-align: center;
     position: relative;
 }
@@ -187,16 +202,74 @@ html, body {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -80px;
+    top: -95px;
 }
 
-.owl-prev, .owl-next {
-    /* width: 20px; */
-    /* height: 20px; */
-    /* left: 20px */
-    /* border-radius: 100%; */
+.owl-next, .owl-prev {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: relative;
+    border: 2px solid #ececec;
+    background-color: transparent;
 }
 
-.owl-stage-outer .active {
-    border: 1px solid #f76b40;
+.owl-prev {
+    /* left: -40px; */
+}
+
+.owl-next {
+    /* left: 40px; */
+}
+
+
+.owl-stage-outer {
+    /* border: 1px solid #ececec; */
+}
+
+/* .owl-stage-outer .active {
+    border: 2px solid #f76b40;
+} */
+
+/* footer */
+
+.footer {
+    background-color: #1f2731;
+    color: #fff;
+    border-bottom:10px solid #f76b40;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footerNav {
+    text-align: center;
+    color: #f76b40;
+}
+
+.footerNav_link, .footerNav_link:hover, .footerContacts_link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerContacts, .footerLocation {
+    text-align: center;
+}
+
+.headerPhone_number:before {
+    content: url('../images/whiteCall_icon.png');
+    margin-right: 5px;
+}
+
+.footerContacts_link {
+    color:#fff;
+}
+
+.footerContacts_text:hover {
+    color: #f76b40;
+    text-decoration: dashed;
+}
+
+.footerLocation_image:before {
+    content: url('../images/location.png');
+    margin-right: 5px;
 }
