@@ -33,19 +33,27 @@
                         </a>
 
                         <div class="navbar-collapse collapse" id="navbar-collapse">
-                            <ul class="nav navbar-nav headerNav navLink_theme">
-                                <a href="#" class="headerNav_link link">
-                                    <li>Главная</li>
-                                </a>
-                                <a href="#about_us" class="headerNav_link link">
-                                    <li>О нас</li>
-                                </a>
-                                <a href="#Reqizity" class="headerNav_link link">
-                                    <li>Реквизиты и контакты</li>
-                                </a>
-                                <a href="#docs" class="headerNav_link link">
-                                    <li>Полезные документы</li>
-                                </a>
+                            <ul class="nav navbar-nav headerNav navLink_theme font_bold">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link headerNav_link  ">
+                                            Главная
+                                        </a>
+                                </li>    
+                                <li class="nav-item">
+                                    <a href="#about_us" class="headerNav_link link">
+                                        О нас
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Reqizity" class="headerNav_link link">
+                                        Реквизиты и контакты
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#docs" class="headerNav_link link">
+                                        Полезные документы
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
@@ -54,7 +62,7 @@
 
                     <div class="headerContacts text_color">
                         <a href="tel:+74991308035" class="headerContacts_link link font_bold text_color">
-                            <div class="headerPhone_number">+7 (499) 130-80-35</div>
+                            <div class="headerPhone_number">+7(499)130-80-35</div>
                             <img src="images/call.png" class="headerContacts_image" alt="call">
                             <span class="headerContacts_text">Обратная
                                 связь</span>
@@ -67,13 +75,16 @@
 
 
     <!-- banner START -->
-    <div class="banner">
+    <div class="banner padding_bottom_small">
         <div class="container">
+            <!-- <div class="bannerBlock"> -->
                 <div class="bannerHeader">
                     <h1>ПРИЕМ МЕТАЛЛОЛОМА БЕЗ ПОСРЕДНИКОВ В МОСКВЕ И ОБЛАСТИ</h1>
 
                 </div>
                 
+                <div class="bannerBlock">
+
                 <form class="requestForm">
                     <h6>Оставьте заявку и мы рассчитает точную стоимость покупки вашего металлома</h6>
 
@@ -89,7 +100,7 @@
 
                         <div class="form-group ">
                             <select name="metalType" id="metalType" class="requestForm_input form-control">
-                                <option  selected  disabled>Вид металлолома</option>
+                                <option  selected  disabled>Вид лома</option>
                                 <option>Медь</option>
                                 <option>Алюминий</option>
                                 <option>Чугун</option>
@@ -106,30 +117,32 @@
                         </div>
                     </div>
                 </form>
+            </div>
         </div>
     </div>
     <!-- banner END -->
 
     <!-- our_services START-->
-    <div class="container padding">
-        <h4 class="header_text font_bold margin_bottom_small">Наши услуги</h4>
+    <div class="container ">
+        <div class="padding_bottom_small">
+            <h4 class="header_text font_bold margin_bottom_small">Наши услуги</h4>
 
-        <div class="row">
-            <div class="col-md-6 ourService margin_bottom_small">
-                <a href="#">
-                    <div style="background-image: url('images/picture 1.png')" class="ourService_image">
-                        <div>
-                            <p class="ourService_text margin_bottom_small">
-                                Покупка и переработка <br>
-                                отходов кабеля
-                            </p>
-                           
-                            <a href="#" class="ourService_link background_color">Прайс-лист</a>
+            <div class="row">
+                <div class="col-sm-6 ourService margin_bottom_small">
+                    <a href="#">
+                        <div style="background-image: url('images/picture 1.png')" class="ourService_image">
+                            <div>
+                                <p class="ourService_text margin_bottom_small">
+                                    Покупка и переработка <br>
+                                    отходов кабеля
+                                </p>
+                            
+                                <a href="#" class="ourService_link background_color">Прайс-лист</a>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 ourService margin_bottom_small">
+                    </a>
+                </div>
+                <div class="col-sm-6 ourService margin_bottom_small">
                     <a href="#">
                         <div style="background-image: url('images/picture 2.png')" class="ourService_image">
                             <div>
@@ -137,13 +150,13 @@
                                     Закуп лома, цветных<br>
                                     металлов
                                 </p>
-                               
+                                
                                 <a href="#" class="ourService_link background_color">Прайс-лист</a>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 ourService margin_bottom_small">
+                <div class="col-sm-6 ourService margin_bottom_small">
                     <a href="#">
                         <div style="background-image: url('images/picture 3.png')" class="ourService_image">
                             <div>
@@ -157,7 +170,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 ourService margin_bottom_small">
+                <div class="col-sm-6 ourService margin_bottom_small">
                     <a href="#">
                         <div style="background-image: url('images/picture 4.png')" class="ourService_image">
                             <div>
@@ -171,7 +184,9 @@
                         </div>
                     </a>
                 </div>
+            </div>
         </div>
+
     </div>
     <!-- our_services END-->
 
@@ -226,10 +241,10 @@
 
             <div class="footerContacts text_color margin_bottom_small">
                 <a href="tel:+74991308035" class="footerContacts_link link margin_bottom_small">
-                    <div>
+                    <!-- <div> -->
                         <!-- <img src="images/whiteCall_icon.png" class="footerContacts_image" alt="call"> -->
-                        <div class="headerPhone_number">+7 (499) 130-80-35</div>
-                    </div>
+                        <div class="footerPhone_number">+7 (499) 130-80-35</div>
+                    <!-- </div> -->
                     <span class="footerContacts_text">Обратная
                         связь</span>
                 </a>

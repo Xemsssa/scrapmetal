@@ -3,9 +3,9 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         lazyLoad:true,
         items:1,
-        // autoplay: true,
+        autoplay: true,
         smartSpeed: 1500,
-        // loop: true,
+        loop: true,
         // margin: 10,
         dots: false,
         responsiveClass: true,
@@ -15,7 +15,7 @@ $(document).ready(function () {
                 items: 1,
                 nav: true,
             },
-            600: {
+            700: {
                 items: 2,
                 nav: true
             },
@@ -24,6 +24,7 @@ $(document).ready(function () {
                 nav: true,
                 // loop: false
             }
+         
         }
     })
 });
