@@ -31,6 +31,25 @@ html, body {
 }
 
 .margin_bottom_big{
+    margin-bottom: 30px !important;
+}
+
+.padding_bottom_small {
+    padding: 20px 0;
+}
+
+
+.padding_bottom_big {
+    padding: 20px 0;
+}
+
+@media (min-width: 455px) {
+    
+.margin_bottom_small {
+    margin-bottom: 20px !important;
+}
+
+.margin_bottom_big{
     margin-bottom: 70px !important;
 }
 
@@ -41,6 +60,8 @@ html, body {
 
 .padding_bottom_big {
     padding: 50px 0;
+}
+
 }
 
 
@@ -58,16 +79,60 @@ html, body {
     padding: 20px 0;
 }
 
-.headerNav {
+.navBlock {
     display: flex;
-    justify-content: space-between;
+    /* position: relative; */
+    /* width: 100%; */
+    /* top: 90px; */
+}
+
+.hamburger {
+    display: flex;
+    /* border: 1px solid #f76b40; */
+    flex-direction: column;
+    position: relative;
+    position: absolute;
+
+    top: 145px;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    height: 50px;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+.line {
+    width:20px;
+    border: 1px solid #f76b40;
+}
+
+.headerNav {
+    /* display: flex; */
+    /* justify-content: space-between; */
     font-size: 1.5rem;
+}
+
+.navbar-collapse.in {
+    overflow-y: inherit !important  ;
+}
+
+       
+.headerNav {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.nav-item {
+    margin-bottom: 15px;
 }
 
 .headerNav_link {
     text-decoration: none;
     color: #000;
-    padding: 0px 15px !important;
+    padding: 0px 0px 0px 0px !important;
 }
 
 .headerNav_link:hover {
@@ -107,6 +172,57 @@ html, body {
     .header {
         flex-direction: row;
     }
+
+        
+    .headerContacts {
+        /* position: relative; */
+        /* top: 80px; */
+        position: relative;
+        /* top: 160px; */
+        /* right: 0; */
+        display: flex;
+        /* justify-content: space-between; */
+        /* text-align: right; */
+        /* width: 100%; */
+        /* width: 300px; */
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .headerNav_link {
+        text-decoration: none;
+        color: #000;
+        padding: 5px 15px 10px 0px !important;
+    }
+
+    .nav-item {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+
+    
+        
+    .headerNav {
+        display: flex;
+        flex-direction: row;
+    }
+
+ 
 }
 
 /* banner */
@@ -195,12 +311,12 @@ html, body {
     }
     
     .requestForm_input {
-        padding: 25px 20px;
+        /* padding: 25px 20px; */
         font-size: 16px;
     }
 
     .requestForm_button {
-        padding: 12px 20px;
+        /* padding: 12px 20px; */
         border: 2px solid #ececec;
     }
 }
@@ -400,6 +516,9 @@ html, body {
 .headerPhone_number {
     font-size: 2.3rem;
 }
+.headerPhone_text {
+    display: none;
+}
 
 .footerPhone_number:before {
     content: url('../images/whiteCall_icon.png');
@@ -442,6 +561,11 @@ html, body {
     .footerPhone_number {
         margin-right: 10px;
     }
+
+    .headerPhone_text {
+        display: inline;
+    }
+    
 }
 
 @media (min-width: 520px) {
