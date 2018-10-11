@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+// owl carousel
     $('.owl-carousel').owlCarousel({
         lazyLoad:true,
         items:1,
@@ -30,4 +30,5 @@ $(document).ready(function () {
          
         }
     })
+
 });
