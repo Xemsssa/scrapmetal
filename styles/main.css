@@ -196,6 +196,10 @@ html, body {
         flex-direction: row;
     }
 
+    .headerLogo {
+        margin-bottom: 0 !important;
+    }
+
         
     .headerContacts {
         /* position: relative; */
