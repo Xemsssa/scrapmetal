@@ -773,12 +773,19 @@ tr:hover{
 
 /* docs */
 
-
 .docs_link {
     color: #fff;
     height: 250px;
 }
 
+.docsBlock {
+    height: 170px;
+    /* height: 250px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .docs_link:hover {
     color: #fff;
@@ -791,4 +798,27 @@ tr:hover{
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+    font-size: 24px;
+}
+
+/* .sertificateBlock {
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+.sertificate {
+    border: 2px solid #f76b40;
+    text-align: center;
+    padding: 20px;
+}
+
+.sertificate_image {
+    max-width: 100%;
+}
+
+@media (min-width: 455px){
+    .docsBlock {
+        height: 250px;
+    }
 }
