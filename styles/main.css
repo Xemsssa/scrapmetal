@@ -768,3 +768,27 @@ tr:hover{
         margin: 70px 0;
     }
 }
+
+
+
+/* docs */
+
+
+.docs_link {
+    color: #fff;
+    height: 250px;
+}
+
+
+.docs_link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.docs_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
