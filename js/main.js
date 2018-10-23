@@ -1,5 +1,5 @@
 $(document).ready(function () {
-// owl carousel
+    // owl carousel
     $('.owl-carousel').owlCarousel({
         lazyLoad:true,
         items:1,
@@ -31,6 +31,8 @@ $(document).ready(function () {
         }
     }),
 
+
+    // accordion for metal3 page
     // $( function() {
         $( "#accordion" ).accordion();
     // } );
