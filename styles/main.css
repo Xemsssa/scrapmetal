@@ -822,3 +822,22 @@ tr:hover{
         height: 250px;
     }
 }
+
+
+
+/* accordeon */
+/* .accordeon {
+    text-align: center;
+} */
+
+.accordeon h3 {
+    padding: 20px;
+}
+
+.ui-accordion-content {
+    height: auto !important;
+}
+
+.accordion_image {
+    max-width: 100%;
+}
